@@ -1,0 +1,213 @@
+.onboarding{
+    height: 100vh;
+    margin-left: 320px;
+    background-color: #edf0f3;
+    display: flex;
+    flex-direction: column;
+    
+
+    h1{
+        padding-top:40px;
+        padding-right: 40px;
+        padding-left: 40px;
+        margin: 0;
+        font-style: normal;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
+
+
+
+#modalNeedApprove{
+
+    .modal-header{
+        justify-content: center;
+        color: var(--Primary-05, #117CC1);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 150% */   
+        .close{
+            position: absolute;
+            right: 20px;
+        }
+    }
+    .modal-title{
+        margin-bottom: 0;
+        padding: 0;
+   
+       h5{
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+       }
+    }
+
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+    .inner-modal{
+        border-bottom: 1px dashed #D3D7DB;
+        display: flex;
+        justify-content: space-between;
+        p{
+            gap: 8px;
+        }
+    }
+    .content1{
+        display: flex;
+        border-bottom: 1px dashed #D3D7DB;
+        
+        p{
+            font-weight: 500;
+            line-height: 20px;
+            font-size: 14px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        span{
+            color: #818489;
+            font-weight: 400;
+        }
+    }
+    .content{
+        flex: 1 0 0;
+        p{
+            font-weight: 500;
+            line-height: 20px;
+            font-size: 14px;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        span{
+            color: #818489;
+            font-weight: 400;
+        }
+    }
+   
+}
+
+#detailNeedApprove,#detailApproved,#detailRejected,#detailPending,#modal-on-going{
+    .modal-header{
+        justify-content: center;
+        padding: 20px;
+        align-items: center;
+        border-bottom: none;
+        h5{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            color: #117CC1;
+        }
+        button{
+            position: absolute;
+            right: 20px;
+        }
+    }
+    h5{
+        margin: 0;
+        color: var(--Black, #202A37);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 142.857% */
+    }
+    p{
+        margin: 0;
+        color: var(--Neutral-05, #818489);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px; /* 142.857% */
+    }
+    .dalam2{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+    }
+    .dalam{
+        flex: 1 0 0;
+        gap: 8px;
+        display: flex;
+        flex-direction: column;
+        a{
+            color: #117CC1;
+        }
+    }
+   
+    
+    .inner-modal{
+        display: flex;
+        justify-content: space-between;
+        .status-modal{
+            flex: 1 0 0;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+    }
+    .modal-dialog {
+        overflow: hidden;
+    }
+    
+    .modal-content {
+        border-radius: 12px !important;
+        overflow: hidden;
+        -webkit-border-radius: 12px !important;
+        -moz-border-radius: 12px !important;
+        -ms-border-radius: 12px !important;
+        -o-border-radius: 12px !important;
+}
+.modal-body{
+    padding: 20px;
+    hr{
+        margin-top: 8px;
+    }
+}
+
+    .modal-footer{
+        .btn-reject{
+            display: flex;
+            padding: 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex: 1 0 0;
+            border-radius: 5px;
+            border: 1px solid var(--Danger-05, #117CC1);
+            background: var(--White, #FCFCFD);
+            color: var(--Danger-05, #117CC1);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px; /* 142.857% */
+        }
+
+        .btn-approve{
+            display: flex;
+            padding: 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex: 1 0 0;
+            border-radius: 5px;
+            background: var(--Danger-05, #117CC1);
+            color: var(--White, #FCFCFD);
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px; /* 142.857% */
+            border: none;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+$primary: #101036;
+// $secondary: #304665;
+$linier:  var(--gold-300, linear-gradient(196deg, #D5AF4A 0%, #F2E983 46.78%, #F2E983 74.17%, #D5B14B 100%));
+
+// breakpoints - min width
+$mobile-bkp: 576px;
+$tablet-bkp: 768px;
+$big-tablet-bkp: 992px;
+$laptop-bkp: 1200px;
+$laptop-container: 1140px;
+$mac-bkp: 1380px;
+$zoom125-bkp: 1500px;
+$desktop-bkp: 1800px;
+
+$tablet-container: 720px;
+$big-tablet-container: 960px;
+$laptop-container: 1140px;
+$zoom125-container: 1294px;
+$desktop-container: 1600px;
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media (min-width: $zoom125-bkp) {
+    .container {
+        max-width: $zoom125-container;
+    }
+}
+
+@media (min-width: $desktop-bkp) {
+    .container {
+        max-width: $desktop-container;
+    }
+}

@@ -1,0 +1,30 @@
+//components
+@use './components/sidebar';
+@use './components/login';
+@use './components/datatables';
+@use './components/modal';
+
+//dashboard
+@use './dashboard/dashboard';
+@use './dashboard/chart';
+
+//karyawan
+@use './karyawan/eksternal';
+@use './karyawan/internal';
+
+//onboarding
+@use './onboarding/onboarding';
+
+//contract
+@use './contract/contract';
+
+//resign
+@use './resign/resign';
+@use './resign/resign-paklaring';
+
+//surat
+@use './surat/surat';
+
+//pengaturan
+@use './pengaturan/pengaturan';
+
