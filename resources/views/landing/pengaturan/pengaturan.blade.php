@@ -18,7 +18,7 @@
         <!-- Ganti id fileInput menjadi file-input -->
 <div class="file-input-container">
     <input type="text" class="file-name" placeholder="JPG / PNG" readonly>
-    <label for="file-input" class="upload-btn1">Unggah</label>
+    <label for="file-input" class="upload-btn5">Unggah</label>
     <input type="file" id="file-input" accept="image/png, image/jpeg" hidden>
 </div>
 

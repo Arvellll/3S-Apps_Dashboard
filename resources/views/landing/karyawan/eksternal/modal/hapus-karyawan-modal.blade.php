@@ -11,6 +11,7 @@
                 <p>Apakah Anda yakin ingin menghapus data ini?</p>
             </div>
             </div>
+            <hr>
             <div class="modal-footer">
                 <button type="button" class="btn-cancel" data-bs-dismiss="modal">Batal</button>
                 <button type="button" class="btn-hapus" data-bs-dismiss="modal">Hapus</button>

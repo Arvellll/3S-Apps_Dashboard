@@ -16,6 +16,7 @@
                 <p>Apakah Anda yakin dengan data yang telah diisi?</p>
             </div>
             </div>
+            <hr>
             <!-- Footer Modal (Tombol) -->
             <div class="modal-footer">
                 <!-- Tombol Batal -->

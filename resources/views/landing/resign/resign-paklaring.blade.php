@@ -68,12 +68,12 @@
                 <h6>Alasan Resign</h6>
                 <textarea id="alasanResign" class="form-control" placeholder="Alasan Resign"></textarea>
             </div>
-            @include('landing.components.button-submit',[
+            
+        </div>
+        @include('landing.components.button-submit',[
                 'btnText' => 'Submit',
                 'modalTarget' => '#konfirmasiModal'
                 ])
-        </div>
-        
 </div>
 @include('landing.resign.modal.submit-modal')
 @endsection

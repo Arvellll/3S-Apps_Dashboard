@@ -105,7 +105,7 @@
             gap: 16px;
             background-color: #ffffff;
             padding: 20px;
-            margin: 40px 40px 0;
+            margin: 40px;
             -webkit-border-radius: 8px;
             -moz-border-radius: 8px;
             -ms-border-radius: 8px;
@@ -136,8 +136,8 @@
                     border-radius: 8px;
                     padding: 12px 16px;
                     font-size: 16px;
-                    padding: 10px;
-                    color: #999;
+                    padding: 12 16pxpx;
+                    color: #B0B3B8;
                     border-radius: 6px;
                     background-color: #F6F7F9;
                     border: #D3D7DB 1px solid;
@@ -186,6 +186,10 @@
                     width: 20px;
                     height: 20px;
                 }
+                
+        }
+        .select2-container--default .select2-selection--single .select2-selection__placeholder {
+            color: #B0B3B8;
         }
 
         
@@ -253,6 +257,9 @@
                 input{
                     background: #F6F7F9;
                 }
+                input::placeholder{
+                    color: #B0B3B8;
+                }
             }
             .inner-tindakan{
                 gap: 8px;
@@ -269,7 +276,10 @@
     .file-input-container{
        input{
         background: var(--Neutral-01, #F6F7F9);
-       
+        
+        &::placeholder{
+            color: #B0B3B8;
+        }
        }
         .upload-btn1{
             position: absolute;
@@ -283,7 +293,7 @@
             line-height: 16px;
             position: absolute;
             right: 80px;
-            bottom: 54px;
+            top: 890px;
         }
         .upload-btn2{
             position: absolute;
@@ -297,10 +307,39 @@
             line-height: 16px;
             position: absolute;
             right: 80px;
-            bottom: 148px;
+            bottom:55px;
+        }
+        .upload-btn3{
+            position: absolute;
+            background-color: #117CC1;
+            padding: 4px 16px;
+            border-radius: 5px;
+            color: var(--White, #FCFCFD);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px;
+            position: absolute;
+            right: 80px;
+            top:988px;
+        }
+        .upload-btn4{
+            position: absolute;
+            background-color: #117CC1;
+            padding: 4px 16px;
+            border-radius: 5px;
+            color: var(--White, #FCFCFD);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px;
+            position: absolute;
+            right: 80px;
+            top: 894px;
         }
 
         .file-name{
+            
             width: 100%;
             padding: 12px 16px;
             border: 1px solid #D3D7DB;
@@ -321,17 +360,18 @@
     }
 
     .detail-surat{
-        a{
-            display: flex;
-            gap: 8px;
-            color: #117CC1;
-        }
-        margin-left: 320px;
+
+    margin-left: 320px;
     background-color: #edf0f3;
     display: flex;
     flex-direction: column;
     
-
+    a{
+        display: flex;
+        gap: 8px;
+        color: #117CC1;
+    }
+    
     h1{
         padding-top:40px;
         padding-right: 40px;

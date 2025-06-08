@@ -23,6 +23,7 @@
             </div>
             <hr style="margin-top:16px;">
             <!-- Footer Modal (Tombol) -->
+             <hr>
             <div class="modal-footer">
                 <!-- Tombol Batal -->
                  <div class="button">

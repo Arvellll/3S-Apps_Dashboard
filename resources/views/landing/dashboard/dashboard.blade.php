@@ -193,7 +193,7 @@
                             <td>Marvin@email.com</td>
                             <td>
                                 <div class="dropdown">
-                                    <button class="btn-action" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="btn btn-light p-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <img src="{{asset('svg/action_button.svg')}}" alt="">
                                     </button>
                                     <ul class="dropdown-menu">

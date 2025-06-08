@@ -1,5 +1,4 @@
 .contract{
-    height: 100vh;
     margin-left: 320px;
     background-color: #edf0f3;
     display: flex;
@@ -17,6 +16,7 @@
     .inner{
         display: flex;
         gap: 12px;
+        margin-bottom: 40px;
         a{
             background-color: #fcfcfd;
         }
@@ -40,7 +40,7 @@
     }    
 }
 
-#unggahFileSign,#unggahFileContract{
+#unggahFileSign{
     .content{
         display: flex;
         flex-direction: column;
@@ -112,7 +112,7 @@
         font-weight: 500;
         line-height: 16px;
         position: absolute;
-        top: 100%;
+        top: 50%;
         right: 6%;
 
     }

@@ -67,38 +67,42 @@
         padding: 12px;
         
     }
+    
 }
 
 .sidebar-inner {
+    .panahputih{
+        display: none;
+    }
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 
-.sidebar a:hover, .sidebar-link.active {
+.sidebar a:hover,.sidebar-link.active{
     background-color: #117CC1;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
     border-radius: 8px;
-
+    .panahputih{
+        display: block !important;
+    }
+    .panahabu{
+        display: none;
+    }
     img {
         display: none;
     }
 
     .img-aktif {
+        
         display: block;
     }
 }
 
-.accordion-flush{
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-}
+
 .accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed{
     border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -108,12 +112,26 @@
     
 }
 .accordion-button:not(.collapsed){
-    background-color: #fff;
+    background-color: #117CC1;
+    color: #fff;
     border: none;
+    font-size: 16px;
+    font-weight: bold;
+    .panahputih{
+        display: block !important;
+    }
+    img {
+        display: none;
+    }
+
+    .img-aktif {
+        display: block;
+    }
+    .panahabu{
+        display: none;
+    }
 }
-.accordion-button.collapsed{
-    border: none;
-}
+
 .profile{
     background-color: #F6F7F9;
     align-items: center;
@@ -127,6 +145,7 @@
     -o-border-radius: 8px;
 }
 .dropdown{
+    
     .btn-drop{
         display: flex;
         gap: 8px;
@@ -169,7 +188,40 @@
 }
 
 
-        
+.accordion-item{
+    text-align: right;
+    align-items: end;
+}
+
+.accordion{
+    a:hover{
+        color: #FCFCFD;
+    }
+}
+
+
+
+.accordion-button::after {
+    display: none !important; /* Hilangkan panah kanan bawaan */
+    
+}
+.accordion-button[aria-expanded="true"] svg {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+  }
+  .accordion-button svg {
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .accordion-collapse.collapse.show{
+    .sidebar-link.active{
+        background-color: #202A37 Im !important;
+    }
+  }
+
+  
+
 
 
 

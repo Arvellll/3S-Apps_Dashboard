@@ -73,7 +73,7 @@
                             <ul class="dropdown-menu" style="overflow:hidden">
                                 <li><a class="dropdown-item" href="#">Detail</a></li>
                                 <li><a class="dropdown-item" href="#">Edit</a></li>
-                                <li><a class="dropdown-item text-danger" href="#">Hapus</a></li>
+                                <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#hapusModal"href="#">Hapus</a></li>
                             </ul>
                         </div>
                     </td>
@@ -85,6 +85,7 @@
 </div>
 </div>
 @include('landing.surat.modal.filtersurat')
+@include('landing.karyawan.eksternal.modal.hapus-karyawan-modal')
 @section('script')
 <script>
    $(document).ready(function() {

@@ -113,7 +113,7 @@
             } else if (status === "need approve") {
                 modalId = "#detailNeedApprove";
             } else if (status === "rejected") {
-                modalId = "#detailRejected";
+                modalId = "#Rejected";
             }
 
             // Tampilkan modal jika ID valid
@@ -130,5 +130,6 @@
 @include('landing.onboarding.modal.detail-pending')
 @include('landing.onboarding.modal.detail-approve')
 @include('landing.onboarding.modal.detail-need')
+@include('landing.onboarding.modal.rejected')
 @include('landing.onboarding.modal.detail-rejected')
 @endsection

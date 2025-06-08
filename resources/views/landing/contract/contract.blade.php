@@ -205,7 +205,7 @@ $(document).ready(function () {
         language: {
             search: "Cari:",
             lengthMenu: "Tampilkan _MENU_ data",
-            info: "Menampilkan _START_ sampai _END_ dari _TOTAL_ data"
+            info: "Row : _TOTAL_ "
         }
     });
 

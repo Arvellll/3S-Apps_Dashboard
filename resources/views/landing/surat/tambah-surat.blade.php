@@ -62,7 +62,7 @@
         <h6>Refrensi Kebijakan (Opsional)</h6>
         <div class="file-input-container">
             <input type="text" class="file-name" placeholder="PDF" readonly>
-            <label for="fileInput" class="upload-btn1">Unggah</label>
+            <label for="fileInput" class="upload-btn4">Unggah</label>
             <input type="file" id="fileInput" accept="image/png, image/jpeg" hidden>
         </div>
 </div> 
@@ -71,7 +71,7 @@
     <h6>Lampiran (Opsional)</h6>
     <div class="file-input-container">
         <input type="text" class="file-name" placeholder="PDF" readonly>
-        <label for="fileInput" class="upload-btn2">Unggah</label>
+        <label for="fileInput" class="upload-btn3">Unggah</label>
         <input type="file" id="fileInput" accept="image/png, image/jpeg" hidden>
     </div>
 </div> 

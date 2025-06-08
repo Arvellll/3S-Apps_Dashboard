@@ -129,7 +129,7 @@
                         </a>
                         </div>
                 <div class="tabel">
-                <table id="suratTable" class="table table-striped">
+                <table id="detailkarTable" class="table table-striped">
                     <thead>
                         <tr>
                             <th>Nomor Surat</th>
@@ -188,7 +188,7 @@
 @section('script')
 <script>
     $(document).ready(function() {
-        $('#suratTable').DataTable();
+        $('#detailkarTable').DataTable();
     });
 </script>
 @endsection

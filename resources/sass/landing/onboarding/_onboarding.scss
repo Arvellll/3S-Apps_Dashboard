@@ -1,5 +1,4 @@
 .onboarding{
-    height: 100vh;
     margin-left: 320px;
     background-color: #edf0f3;
     display: flex;
@@ -95,7 +94,7 @@
    
 }
 
-#detailNeedApprove,#detailApproved,#detailRejected,#detailPending,#modal-on-going{
+#detailNeedApprove,#detailApproved,#detailRejected,#detailPending,#modal-on-going,#Rejected{
     .modal-header{
         justify-content: center;
         padding: 20px;
@@ -169,7 +168,7 @@
         -o-border-radius: 12px !important;
 }
 .modal-body{
-    padding: 20px;
+    padding: 20px !important;
     hr{
         margin-top: 8px;
     }
